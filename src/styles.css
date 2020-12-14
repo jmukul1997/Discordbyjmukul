@@ -1,0 +1,59 @@
+/* ./your-css-folder/styles.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.sidebar-spotify::-webkit-scrollbar {
+  width: 4px;
+  background-color: #2f3136;
+}
+
+.sidebar-spotify::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #202225;
+}
+
+.content-spotify::-webkit-scrollbar {
+  width: 8px;
+  background-color: #3f495a;
+}
+
+.content-spotify::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #202225;
+}
+
+compass a svg:hover g {
+  fill: white;
+  transition: all ease 0.3s;
+}
+
+compass a svg g {
+  transition: all ease 0.3s;
+  
+}
+
+compass:hover g {
+  fill: white;
+  transition: all ease 0.3s;
+}
+
+compass g {
+  transition: all ease 0.3s;
+  
+}
+
+
+download:hover g {
+  fill: white;
+  transition: all ease 0.3s;
+}
+
+download g {
+  transition: all ease 0.3s;
+  
+}
+
+.group:hover .group-hover\:text-white {
+  color: #fff;
+}
